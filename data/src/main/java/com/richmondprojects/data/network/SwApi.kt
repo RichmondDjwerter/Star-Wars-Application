@@ -2,7 +2,6 @@ package com.richmondprojects.data.network
 
 import com.richmondprojects.data.network.model.CharactersDto
 import com.richmondprojects.data.network.model.ResultsDto
-import com.richmondprojects.domain.model.Results
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
