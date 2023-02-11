@@ -45,7 +45,6 @@ fun HomeScreen(
 //        }
 //    }
     val list = viewModel.pager.collectAsLazyPagingItems()
-    var text by remember { mutableStateOf("") }
     Column(modifier = Modifier.fillMaxSize()) {
         Spacer(modifier = Modifier.height(8.dp))
         SearchBar(
